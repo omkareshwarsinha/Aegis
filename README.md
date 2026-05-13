@@ -67,7 +67,7 @@
 
 ---
 
-## 🤖 What is AEGIS JARVIS
+## ®️ What is AEGIS JARVIS
 
 **AEGIS JARVIS v15** is a fully offline-capable **Android AI companion** designed and developed by **Omkareshwar Sinha** using the **DroidScript** platform. Unlike cloud-dependent assistants, **AEGIS** works entirely on your Android device using **local LLMs via Ollama**, while also supporting **9 online AI providers** for enhanced capabilities.
 
@@ -77,7 +77,7 @@
 - 🏠 **Fully Offline AI** — Run local LLMs without internet
 - 🗣️ **Hinglish First** — Talk naturally in Hindi-English mix
 - 📱 **40+ Built-in Apps** — From games to OSINT tools
-- 🔒 **Privacy Focused** — Local encryption, no data leakage
+- 🔒 **Privacy Focused** — Local encryption, no data leakage most data remain on your phone , no database , no data collection 
 - ⚡ **Native Android Control** — Calls, SMS, torch, alarms, WhatsApp
 
 ---
@@ -110,16 +110,16 @@
 │              COMMAND LAYER — dashProcess Engine              │
 │    Hinglish NLP → Intent Detection → Command Router         │
 └─────────────────────────┬───────────────────────────────────┘
-                          │
+                             │  |
             ┌─────────────┴─────────────┐
             ▼                           ▼
 ┌──────────────────────┐    ┌──────────────────────────────┐
-│   Native Bridge      │    │     AI ENGINE (Multi-LLM)    │
-│   console.log API    │    │  Ollama / Gemini / GPT /     │
-│   CMD:action:value   │    │  Groq / Grok / OpenRouter    │
+│   Native Bridge          │    │     AI ENGINE (Multi-LLM)    │
+│   console.log API        │    │  Ollama / Gemini / GPT /     │
+│   CMD:action:value       │    │  Groq / Grok / OpenRouter    │
 └──────────┬───────────┘    └──────────────┬───────────────┘
-           │                               │
-           ▼                               ▼
+             │                                    │
+             ▼                                   ▼
 ┌─────────────────────────────────────────────────────────────┐
 │              Aegis.js — DroidScript Native Bridge          │
 │   app.TextToSpeech · app.SendIntent · app.LaunchApp        │
